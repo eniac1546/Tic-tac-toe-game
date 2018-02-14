@@ -1,0 +1,38 @@
+*
+{
+	padding:0px;
+	margin:0px;
+}
+body
+{
+	text-align:center;
+	background:black;
+}
+canvas
+{
+	background:skyblue;
+	-webkit-transition:-webkit-transform 1s;
+	box-shadow:10px 10px 30px green;
+}
+canvas:hover
+{
+	width:101px;
+	height:99px;
+}
+#gamediv
+{
+	margin:150px auto 40px;
+}
+#reloadButton
+{
+	text-decoration:none;
+	color:white;
+	font:50px tahoma;
+	text-shadow:5px 5px 30px white;
+}
+#reloadButton:hover
+{
+	font-size:52px;
+	opacity:0.4;
+}
+
